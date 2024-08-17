@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="register.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+   <section>
+   <div class="wrapper">
+    <div class="form-box login">
+        <form action="#">
+         <h1>Login</h1>
+         <div class="input-box">
+            <input type="text" placeholder="Username" required>
+            <i class='bx bxs-user'></i>
+         </div> 
+
+         <div class="input-box">
+            <input type="password" placeholder="Password" required>
+            <i class='bx bxs-lock'></i>
+         </div>
+         <div class="re-for">
+            <label><input type="checkbox">Remember me</label>
+            <a href="fp.html">Forgot password?</a>
+         </div>
+         
+         <button type="submit" class="btn">Login<i class='bx bxs-right-arrow-circle bx-fade-right-hover'></i></button>
+         <div class="register">
+            <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+         </div>
+        </form>
+      </div>
+      
+      <div class="form-box reg">
+         <form action="">
+          <h1>Registration</h1>
+          <div class="input-box">
+             <input type="text" placeholder="Username" required>
+             <i class='bx bxs-user'></i>
+          </div> 
+
+          <div class="input-box">
+            <input type="email" placeholder="Email" required>
+            <i class='bx bx-envelope'></i>
+         </div>
+
+          <div class="input-box">
+             <input type="password" placeholder="Password" required>
+             <i class='bx bxs-lock'></i>
+          </div>
+          <div class="re-for">
+             <label><input type="checkbox">I agree to the terms & conditions</label>
+          </div>
+          
+          <button type="submit" class="btn">Register<i class='bx bxs-right-arrow-circle bx-fade-right-hover'></i></button>
+          <div class="register">
+             <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+          </div>
+         </form>
+       </div>
+   </div>   
+</section>
+   <script src="/register.js"></script>
+</body>
+</html>
+
